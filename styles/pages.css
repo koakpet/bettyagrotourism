@@ -1,53 +1,113 @@
 * {
-	padding: 0px;
-	margin: 0px;
-	box-sizing: border-box;
-}
-
-.body {
-    width: 930px;
-    margin: auto;
-    text-align: justify;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 .logo {
-    width: 90px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin: 20px 105px;
 }
 
-.breadcrumb-style {
-    font-size: 12px;
-    margin: 3px;
+.social_media {
+    padding: 21px;
+}
+
+.social_links a {
+    border: solid #DC143C 1px;
+    padding: 6px 12px;
+    border-radius: 50%;
+    background-color: #DC143C;
+    color: #FFFFFF;
+}
+
+.social_links a:hover {
+    background-color: #FFFFFF;
+    color: #DC143C;
+}
+
+.tagline {
+    padding: 24px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.body {
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    font-size: 15px;
+}
+
+h3 {
+    color: #DC143C    
+}
+
+.img-thumbnail {
+    width: 300px;
+    margin: 0 21px 21px 0; 
 }
 
 .footer {
     font-family: "Times New Roman", Times, serif;
     font-size: 12px;
-    margin-top: 12px;
+    padding-top: 12px;
 }
 
+/* additional styling for mobile devices */
 @media only screen and (max-width: 760px) {
-    body {
+    h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 18px;
+        color: #DC143C;
+    }
+
+    h4 {
         font-size: 12px;
     }
 
+    .logo {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        margin: 9px 15px;
+    }
+
+    .social_links a {
+        border: solid #DC143C 1px;
+        padding: 3px 9px;
+        border-radius: 50%;
+        background-color: #DC143C;
+        color: #FFFFFF;
+    }
+
+    .social_links a:hover {
+        background-color: #FFFFFF;
+        color: #DC143C;
+    }
+
+    .tagline {
+        padding: 15px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
     .body {
-        width: 100%;
+        width: 96%;
         margin: auto;
         text-align: justify;
-    }
-
-    .logo {
-        width: 60px;
-    }
-
-    .breadcrumb-style {
         font-size: 9px;
-        margin: 3px;
-    } 
+    }
+
+    .img-thumbnail {
+        width: 150px;
+        margin: 0 12px 12px 0; 
+    }
+    
 
     .footer {
         font-family: "Times New Roman", Times, serif;
-        font-size: 6px;
-        margin-top: 12px;
-    }    
+        font-size: 9px;
+        padding-top: 12px;
+    }   
 }
