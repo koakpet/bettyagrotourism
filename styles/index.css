@@ -42,6 +42,10 @@
     padding: 30px 0;
 }
 
+.article_text {
+    margin: auto;
+}
+
 .footer {
     font-family: "Times New Roman", Times, serif;
     font-size: 12px;
@@ -50,8 +54,12 @@
 
 /* additional styling for mobile devices */
 @media only screen and (max-width: 760px) {
+    h1 {
+        font-size: 30px;
+    }
+
     h4 {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .logo {
@@ -74,7 +82,7 @@
 
     .tagline {
         padding: 15px;
-        font-size: 13.5px;
+        font-size: 12px;
         font-weight: bold;
     }
 
@@ -82,11 +90,15 @@
         width: 96%;
         margin: auto;
         text-align: justify;
-        font-size: 12px;
+        font-size: 9px;
     }
 
     .articles {
         padding: 21px 0;
+    }
+
+    .article_image {
+        margin: auto;
     }
 
     .footer {
